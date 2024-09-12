@@ -76,7 +76,7 @@ const ImageSlider = () => {
       
       :
       
-      // this code will run for small device 
+      // this code will run for large device 
       <div className='relative'>
       {/* slider  */}
       <Slider {...sliderSetting}  >

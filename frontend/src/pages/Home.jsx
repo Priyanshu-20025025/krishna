@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ImageSlider from "../components/Slider.js";
 import PartSecond from "../components/PartSecond.jsx";
 import { motion } from 'framer-motion'; 
+import ProductBox from "../components/ProductBox.jsx";
 
 
 
@@ -23,7 +24,7 @@ const Home = () => {
       </div>
       {/* **************2nd Part************* */}
       <PartSecond/>
-      
+      <ProductBox/>
       </motion.div>
     </>
   );
